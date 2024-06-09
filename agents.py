@@ -61,7 +61,6 @@ data_summarizer = Agent(
     verbose=True,
     allow_delegation=True,
     tools=[SerperDevTool()],
-    # tool = [],
     llm=ChatOpenAI(model_name="gpt-4", temperature=0.7),
 )
 
@@ -72,7 +71,6 @@ pollution_expert = Agent(
     verbose=True,
     allow_delegation=True,
     tools=[SerperDevTool()],
-    # tool = [],
     llm=ChatOpenAI(model_name="gpt-4", temperature=0.7),
 )
 
@@ -83,7 +81,6 @@ enviromentalist = Agent(
     verbose=True,
     allow_delegation=True,
     tools=[SerperDevTool()],
-    # tool = [],
     llm=ChatOpenAI(model_name="gpt-4", temperature=0.7),
 )
 
@@ -94,7 +91,6 @@ recommendation_writer = Agent(
     verbose=True,
     allow_delegation=True,
     tools=[SerperDevTool()],
-    # tool = [],
     llm=ChatOpenAI(model_name="gpt-4", temperature=0.7),
 )
 
